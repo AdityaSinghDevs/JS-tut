@@ -3,6 +3,7 @@ let accEmail = "aditya@gmail.com"
 var accCity = "delhi"
 accPass= 22334455
 
+console.log(accId)
 console.table([accId, accEmail, accCity, accPass]);
 
 accEmail= "lolchanged@gmail.com"
@@ -12,10 +13,10 @@ accPass = 12345
 console.table([accId, accEmail, accCity, accPass]);
 
 // Now
-// Don't use 'var' and/or the no keywoard variable declaration like in 'accPass'
+// Don't use 'var' and/or the no keyword variable declaration like in 'accPass'
 // due to block scope error
 
-//only use 'let'
+//only use 'let' and more preferrably const
 
 
 

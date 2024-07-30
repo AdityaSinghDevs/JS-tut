@@ -1,6 +1,6 @@
 "use strict"// Treat all JS code as newer version
 
-// alert(3+3) not using browser, using node
+// alert(3+3) not using browser, using node, (here alert is a function)
 
 console.log(3+3)
 console.log("Aditya");
